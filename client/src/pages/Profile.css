@@ -1,0 +1,28 @@
+.basicInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: white;
+    
+    border: 1px solid white;
+}
+
+.password {
+
+    width: 12rem;
+    height: 3rem;
+  font-size: 18px;
+    border: none;
+    border-radius: 2rem;
+    background-color:dodgerblue;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.password:hover {
+    background-color: rgb(20, 136, 238);
+    cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.HomePosts{
+    width: 100vw;
+        height: auto;
+        display: flex;
+        align-items: center;
+        /* padding-top: 40px; */
+        flex-direction: column;
+        border-radius: 20px;
+        
+}
+
+.likeBtn{
+    
+    width: 6rem;
+    height: 2rem;
+    margin-right: 10px;
+    border: none;
+    border-radius: 1rem;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.likeBtn:hover{
+    background-color: rgb(207, 226, 243);
+    cursor: pointer;
+}
+
+.likeArea{
+    flex: 20%;
+        border-top: 1px solid lightgray;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 15px;
+background: linear-gradient(to right, #000046, #1cb5e0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */           color: white;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+}
+
+.likeArea a{
+    color: white;
+    text-decoration: none;
+}
